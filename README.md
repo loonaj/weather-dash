@@ -2,8 +2,8 @@
 A Dashboard that shows the whether of the city
 
 
-![website mockup](./assets/images/06 demo.png)
+![website mockup](weather-dash/assets/images/06 demo.png)
 
-
+![](./assets/images/06 demo.png)
 ## Link to Website
 Link:
