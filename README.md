@@ -2,8 +2,7 @@
 A Dashboard that shows the whether of the city
 
 
-![website mockup](assets/images/06demo.png)
-
+![website mockup](./assets/images/06 demo.png)
 
 ## Link to Website
 Link:
