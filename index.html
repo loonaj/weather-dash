@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="border border-primary text-center">
+        <h1 class="m-3">Weather Dashboard</h1>
+    </header>
+    <main>
+        <div class="d-flex flex-row flex-wrap mt-2">
+            <div class="col-md-12 col-lg-2">
+                <div class="card text-center">
+                    <h2 class="card-header text-uppercase">Search a City:</h2>
+                    <form id="search-form" class="card-body">
+                        <label class="form-label" for="city"></label>
+                        <input placeholder="New York City" name="city" id="city" type="text" class="form-input border border-dark text-center" />
+                        <button type="submit" class="btn btn-primary w-75">Search</button>
+                    </form>
+                </div>
+                <div class="card mt-5 text-center">
+                    <h2 class="card-header text-uppercase">Search History</h2>
+                    <div id="history" class="d-flex flex-column align-items-center p-2">
+                        <button class="btn-primary w-75 m-1" onclick="clearHistory()">Clear History</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-10 border border-info">
+                <h2 class="text-center">Showing Weather for: <u><span id="weather-search"></span></u></h2>
+                <div id="weather-container">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./assets/js/home.js"></script>
+</body>
+
+</html>
