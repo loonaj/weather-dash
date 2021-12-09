@@ -1,9 +1,10 @@
 # Weather-dash
 A Dashboard that shows the whether of the city
 
-
+## Mockup
 ![website mockup](./assets/images/demo.png)
 
+## Website
 ![actual website](./assets/images/website.png)
 
 
